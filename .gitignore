@@ -1,0 +1,31 @@
+# Frontend
+frontend/dist
+frontend/node_modules
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend
+backend/.venv
+backend/venv
+backend/__pycache__
+backend/*.pyc
+backend/.env
+backend/.env.local
+backend/.pytest_cache
+backend/.mypy_cache
+backend/instance/
+backend/*.egg-info/
+backend/dist/
+backend/build/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Environment
+.env
+.env.local
+.env.*.local
