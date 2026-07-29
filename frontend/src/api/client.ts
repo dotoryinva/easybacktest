@@ -36,7 +36,7 @@ import {
   type Strategy,
 } from '../schemas/strategy'
 
-const BASE = (import.meta.env.VITE_API_BASE_URL ?? 'http://localhost:8000').replace(/\/$/, '')
+const BASE = (import.meta.env.VITE_API_BASE_URL ?? 'https://easybacktest-backend.onrender.com').replace(/\/$/, '')
 
 /** Phase 1 has no auth: a ULID-ish id in localStorage owns the strategies. */
 const USER_ID_KEY = 'easybacktest.user_id'
