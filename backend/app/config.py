@@ -21,7 +21,7 @@ class Settings(BaseSettings):
     database_url: str = "sqlite:///strategies.db"
 
     # HTTP
-    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173"
+    cors_origins: str = "http://localhost:5173,http://127.0.0.1:5173,https://easybacktest.vercel.app,https://easybacktest-3stm.vercel.app"
 
     # Jobs
     enable_scheduler: bool = False
